@@ -1,0 +1,14 @@
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacer-4-x);
+    background: url("/public/assets/pattern-lightblue.png") center / contain repeat;
+}
+
+.headerSection h1 {
+    font-size: 1.5rem;
+    font-family: var(--font-title);
+    text-transform: uppercase;
+    letter-spacing: var(--spacer);
+}

@@ -1,0 +1,13 @@
+.mainSection {
+    display: grid;
+}
+
+.mainSection.dark {
+    --lightTheme: #000;
+    --darkTheme: #fff;
+}
+
+.gridCont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+}

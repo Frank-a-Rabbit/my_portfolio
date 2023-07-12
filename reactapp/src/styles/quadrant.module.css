@@ -1,0 +1,37 @@
+:where(.quadrant) {
+    position: relative;
+    aspect-ratio: 300 / 175;
+    transition: aspect-ratio 0.3s ease-in-out;
+}
+
+:where(.quadrant h2) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-title);
+}
+
+.quadrant::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.quadrant .spring {
+    position: absolute;
+}
+
+.spring::after {
+    background-color: bisque;
+}
+
+@media (min-width: 750px) {
+    :where(.quadrant) {
+        aspect-ratio: 300 / 300;
+    }
+}

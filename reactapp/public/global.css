@@ -1,0 +1,15 @@
+:root {
+    --lightTheme: #fff;
+    --darkTheme: #000;
+
+    --font-title: 'Rubik', sans-serif;
+    --font-display: 'Quicksand', sans-serif;
+
+    --spacer: 2px;
+    --spacer-2-x: calc(var(--spacer) * 2);
+    --spacer-4-x: calc(var(--spacer) * 4);
+    --spacer-8-x: calc(var(--spacer) * 8);
+    --spacer-16-x: calc(var(--spacer) * 16);
+
+    --rotate: -90deg;
+}
